@@ -4,3 +4,6 @@ spring:
     url: jdbc:mysql://localhost:3306/springbootaction_db
     username: root
     password:
+mybatis:
+  mapper-locations: classpath:mybatis/*.xml
+  type-aliases-package: com.zwwhnly.springbootaction.mybatis.entity
