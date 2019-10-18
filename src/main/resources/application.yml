@@ -4,6 +4,16 @@ spring:
     url: jdbc:mysql://localhost:3306/springbootaction_db
     username: root
     password:
+#  profiles:
+#    active: prod
 mybatis:
   mapper-locations: classpath:mybatis/*.xml
   type-aliases-package: com.zwwhnly.springbootaction.mybatis.entity
+
+book:
+  name: spring boot
+  author: wangyunfei
+
+author:
+  name: wangyunfei
+  age: 32
