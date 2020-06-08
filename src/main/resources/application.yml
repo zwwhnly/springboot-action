@@ -4,6 +4,11 @@ spring:
     url: jdbc:mysql://localhost:3306/springbootaction_db
     username: root
     password:
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    database: 0
+    timeout: 2000
 #  profiles:
 #    active: prod
 mybatis:
@@ -21,4 +26,5 @@ author:
 nacos:
   config:
     server-addr: 127.0.0.1:8848
+
 
